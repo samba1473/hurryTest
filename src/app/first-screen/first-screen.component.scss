@@ -1,0 +1,24 @@
+ .firstScreen{
+    width:300px;
+    height:100px; 
+    border-radius: 30px;
+    border-width: 4px;  
+    border-radius: 16px;
+    position: relative;
+    background-color: #000000;
+    &::after{
+        position: absolute;
+        top: -2px; bottom: -2px;
+        left: -2px; right: -2px;
+        background: linear-gradient(to top, #0096F5 , #FF0000, #8B0CA0)  ;
+        content: '';
+        z-index: -1;
+        border-radius: 16px;
+    }
+    img{
+        position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    }
+ }
