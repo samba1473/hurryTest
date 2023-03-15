@@ -10,13 +10,23 @@ import {InputTextModule} from 'primeng/inputtext';
 import { FormsModule } from '@angular/forms';
 import {ReactiveFormsModule} from '@angular/forms';
 import { ThirdScreenComponent } from './third-screen/third-screen.component';
+import { ForthScreenComponent } from './forth-screen/forth-screen.component';
+import { CreateRoomComponent } from './create-room/create-room.component';
+import { JoinRoomComponent } from './join-room/join-room.component';
+import { LetsBeginComponent } from './lets-begin/lets-begin.component';
+import { ChooseWordComponent } from './choose-word/choose-word.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstScreenComponent,
     SecondScreenComponent,
-    ThirdScreenComponent
+    ThirdScreenComponent,
+    ForthScreenComponent,
+    CreateRoomComponent,
+    JoinRoomComponent,
+    LetsBeginComponent,
+    ChooseWordComponent
   ],
   imports: [
     BrowserModule,

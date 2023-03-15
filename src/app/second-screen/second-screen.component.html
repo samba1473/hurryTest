@@ -2,7 +2,7 @@
 <div class="secondScreen">
     <h2>What is Your name?</h2>
     <form [formGroup]="hurraySubmit" (ngSubmit)="nameForm()">
-        <input type="text" pInputText class="p-inputtext-sm" placeholder="-Type here-" formControlName="name"> <br>
-        <button class="nextButton" [disabled]="!hurraySubmit.valid">Next</button> 
+        <input type="text"  class="inputBox" formControlName="name">  
+        <button  [class]="hurraySubmit.valid ? 'nextButton' :'inavlidButton'" [disabled]="!hurraySubmit.valid">Next</button> 
     </form>
 </div>

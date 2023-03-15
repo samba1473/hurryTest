@@ -14,10 +14,14 @@
             // }
             img{
                 width: 44px;
-                height: 57px;
-                // position: absolute;
+                height: 57px; 
                 bottom: 2px;
                 left: 20px;
+            }
+            .aaaa{
+                img{
+                    filter: brightness(0.5);
+                }
             }
         }
     }

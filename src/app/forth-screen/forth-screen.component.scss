@@ -1,0 +1,18 @@
+.forthScreen{
+    text-align: center;
+
+    .forthscreenProfile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:10px;
+        margin-bottom: 20px;
+    }
+    .forthscreenButtons{
+        padding: 7px 15px;
+        border-radius:40px; 
+        display: block;
+        min-width:200px;
+        
+    }
+}

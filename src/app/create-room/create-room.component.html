@@ -1,0 +1,14 @@
+<div class="joinRoomScreen">
+    <div class="joinRoomscreenProfile">
+        <img src="../../assets/avatar_2.png">
+        {{name}}
+    </div> 
+  
+    <form [formGroup]="hurraySubmit" (ngSubmit)="nameForm()">
+        <div class="nameInputDiv">
+            <h4>Room Name</h4>
+            <input type="text" class="inputBox" formControlName="roomName">
+        </div>
+        <button  class="nextButton mt-5" (click)=" sendtoNextPage()"  [disabled]="!hurraySubmit.valid" [class]="hurraySubmit.valid ? 'nextButton' :'inavlidButton'">Next</button>
+    </form>
+</div>

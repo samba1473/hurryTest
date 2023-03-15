@@ -3,22 +3,23 @@
     <h3>Hello {{name}}!</h3>
     <span>Choose your avatar</span>
     <div class="avatar_images">
-        <div class="avatarOne">
-            <a href="#" class="avatar">
-                <img src="../../assets/avatar_1.png">
-            </a>          
-            <a href="#" class="avatar">
-                <img src="../../assets/avatar_1.png">
-            </a> 
-            <a href="#" class="avatar">
-                <img src="../../assets/avatar_1.png">
-            </a> 
-            <a href="#" class="avatar">
-                <img src="../../assets/avatar_1.png">
-            </a> 
-            <a href="#" class="avatar">
-                <img src="../../assets/avatar_1.png">
-            </a> 
+        <div class="avatarOne" #pick>            
+                <a href="javascript:" class="avatar" id="avatar_1" [class.aaaa]="imageblurClass" (click)="pickID($event)">
+                    <img src="../../assets/avatar_1.png">
+                </a>          
+                <a href="javascript:" class="avatar" id="avatar_2" [class.aaaa]="imageblurClass"  (click)="pickID($event)">
+                    <img src="../../assets/avatar_1.png" >
+                </a> 
+                <a href="javascript:" class="avatar" id="avatar_3"  [class.aaaa]="imageblurClass"  (click)="pickID($event)">
+                    <img src="../../assets/avatar_1.png">
+                </a>
+                <a href="javascript:" class="avatar"  [class.aaaa]="imageblurClass"  (click)="pickID($event)">
+                    <img src="../../assets/avatar_1.png">
+                </a> 
+                <a href="javascript:" class="avatar"  [class.aaaa]="imageblurClass"  (click)="pickID($event)">
+                    <img src="../../assets/avatar_1.png">
+                </a>
         </div>
+        <button class="nextButton"  (click)="navigateForth()">Next</button>
     </div>
 </div>
