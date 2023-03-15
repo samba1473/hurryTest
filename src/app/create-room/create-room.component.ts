@@ -25,7 +25,7 @@ export class CreateRoomComponent implements OnInit{
     this.rout.navigate(['letsBegin'])
     setTimeout(() => {
       this.rout.navigate(['chooseWord'])
-    }, 2000);
+    }, 1000);
   }
   ngOnInit(): void {
     this.name=this.service.profilename

@@ -23,7 +23,7 @@ export class JoinRoomComponent implements OnInit{
     this.rout.navigate(['letsBegin'])
     setTimeout(() => {
       this.rout.navigate(['chooseWord'])      
-    }, 2000);
+    }, 1000);
   }
   nameForm(){
     
