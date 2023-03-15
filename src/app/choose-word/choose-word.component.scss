@@ -1,0 +1,9 @@
+.chooseWord{
+    text-align: center;
+    .chooseWordbtns{
+        margin-top:30px;
+        display: grid; 
+        grid-template-columns: 2fr 2fr;
+        gap: 30px;
+    }
+}

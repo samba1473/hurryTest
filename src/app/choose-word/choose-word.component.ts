@@ -5,6 +5,5 @@ import { Component } from '@angular/core';
   templateUrl: './choose-word.component.html',
   styleUrls: ['./choose-word.component.scss']
 })
-export class ChooseWordComponent {
-
+export class ChooseWordComponent { 
 }
